@@ -56,8 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const size = parseInt(qrSizeSelect.value);
         const level = qrLevelSelect.value;
 
+        const qrCanvas = document.createElement('canvas');
+        qrcodeContainer.appendChild(qrCanvas);
+
         qriousInstance = new QRious({
-            element: qrcodeContainer,
+            element: qrCanvas,
             value: url,
             size: size,
             level: level
