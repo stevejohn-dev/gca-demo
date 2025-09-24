@@ -10,12 +10,6 @@ When creating a new game, please adhere to the following folder structure:
 
 If you are creating a game called "tetris", you should create a new folder named `tetris` in the root of this repository. All the files for the "tetris" game will be located inside the `/tetris/` directory.
 
-# GitHub Repository
-
-When pulling issues from a project or repository, always use the following repository:
-
-[https://github.com/ameer00/games](https://github.com/ameer00/games)
-
 # Workflow
 
 When a new change is being requested from an issue, create a new Git branch with the name <date as in YY-MM-DD>-issue-<issueNumber>. Once the plan is completed, create a pull request in the repo.
