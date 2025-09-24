@@ -2,14 +2,14 @@
 
 ## 📋 Todo Checklist
 - [x] ~~Create a new Git branch.~~ ✅ Implemented
-- [ ] Create a new directory for the QR code generator.
-- [ ] Set up `index.html` with basic structure and DaisyUI CDN.
-- [ ] Implement UI for URL input and QR code display.
-- [ ] Integrate a QR code generation library.
-- [ ] Add "Generate", "Clear", and "Settings" buttons.
-- [ ] Implement a "Recent QR Codes" section.
-- [ ] Display a motivational message after generation.
-- [ ] Ensure responsive design.
+- [x] ~~Create a new directory for the QR code generator.~~ ✅ Implemented
+- [x] ~~Set up `index.html` with basic structure and DaisyUI CDN.~~ ✅ Implemented
+- [x] ~~Implement UI for URL input and QR code display.~~ ✅ Implemented
+- [x] ~~Integrate a QR code generation library.~~ ✅ Implemented
+- [x] ~~Add "Generate", "Clear", and "Settings" buttons.~~ ✅ Implemented
+- [x] ~~Implement a "Recent QR Codes" section.~~ ✅ Implemented
+- [x] ~~Display a motivational message after generation.~~ ✅ Implemented
+- [x] ~~Ensure responsive design.~~ ✅ Implemented
 - [ ] Final Review and Testing.
 
 ## 🔍 Analysis & Investigation
