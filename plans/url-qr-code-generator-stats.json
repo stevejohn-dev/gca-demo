@@ -1,6 +1,10 @@
 {
-  "plan_file_name": "url-qr-code-generator.md",
-  "total_steps": 7,
-  "completed_steps": 0,
-  "estimated_time_minutes": 120
+  "planName": "url-qr-code-generator",
+  "startTime": "2025-09-24T02:20:00Z",
+  "endTime": "2025-09-24T02:40:00Z",
+  "totalTimeInSeconds": 1200,
+  "totalCommits": 6,
+  "totalLinesOfCodeChanged": 362,
+  "totalCharactersChanged": 15000,
+  "totalApiInvocations": 30
 }
