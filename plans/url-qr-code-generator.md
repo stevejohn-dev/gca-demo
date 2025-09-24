@@ -1,7 +1,7 @@
 # Feature Implementation Plan: URL QR Code Generator
 
 ## 📋 Todo Checklist
-- [ ] Create a new Git branch.
+- [x] ~~Create a new Git branch.~~ ✅ Implemented
 - [ ] Create a new directory for the QR code generator.
 - [ ] Set up `index.html` with basic structure and DaisyUI CDN.
 - [ ] Implement UI for URL input and QR code display.
