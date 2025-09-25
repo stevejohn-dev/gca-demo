@@ -10,8 +10,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
-    <div class="container mx-auto p-4">
-        <!-- QR Code Generator content will go here -->
+    <div class="container mx-auto p-4 flex flex-col items-center space-y-4">
+        <h1 class="text-4xl font-bold text-primary">URL QR Code Generator</h1>
+        <div class="form-control w-full max-w-xs">
+            <label class="label">
+                <span class="label-text">Enter your URL</span>
+            </label>
+            <input type="url" id="urlInput" placeholder="https://example.com" class="input input-bordered w-full" />
+        </div>
+        <button id="generateBtn" class="btn btn-primary">Generate QR Code</button>
+        <div id="qrcode" class="p-4 bg-base-200 rounded-box"></div>
+        <p id="motivationalMessage" class="text-success text-lg hidden">Scan this QR code to share your link!</p>
     </div>
     <script src="script.js"></script>
 </body>
