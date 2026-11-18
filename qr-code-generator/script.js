@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const motivationalMessage = document.getElementById('motivationalMessage');
     const qrSizeSelect = document.getElementById('qrSize');
     const qrLevelSelect = document.getElementById('qrLevel');
+    const settingsDropdown = document.getElementById('settingsDropdown');
 
     let qriousInstance = null;
 
@@ -40,8 +41,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize settings on load
     loadSettings();
 
-    qrSizeSelect.addEventListener('change', saveSettings);
-    qrLevelSelect.addEventListener('change', saveSettings);
+    qrSizeSelect.addEventListener('change', () => {
+        saveSettings();
+        if (qriousInstance && urlInput.value.trim()) {
+            generateQRCode();
+        }
+    });
+    qrLevelSelect.addEventListener('change', () => {
+        saveSettings();
+        if (qriousInstance && urlInput.value.trim()) {
+            generateQRCode();
+        }
+    });
+
+    // Close settings dropdown when clicking outside
+    document.addEventListener('click', (event) => {
+        if (settingsDropdown && settingsDropdown.hasAttribute('open') && !settingsDropdown.contains(event.target)) {
+            settingsDropdown.removeAttribute('open');
+        }
+    });
 
     const generateQRCode = () => {
         const url = urlInput.value.trim();
